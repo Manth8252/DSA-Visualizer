@@ -1,0 +1,44 @@
+/* App Component Styles */
+navbar {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .array-item {
+    width: 60px; /* Adjust size for better visibility */
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    transition: background-color 0.5s, transform 0.5s;
+  }
+  
+  .highlight {
+    background-color: red; /* Highlight the item being swapped */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: -40px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid blue; /* Color of the arrow */
+    left: 0;
+    z-index: 1;
+    transition: left 0.5s;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+  }
+  
